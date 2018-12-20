@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  freemarker:
+      request-context-attribute: request
+      expose-request-attributes: true
+      template-loader-path: classpath:templates/pages
+logging:
+  config: classpath:config/logback-absorb.xml
+
